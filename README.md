@@ -1,17 +1,17 @@
 # Chinese Traffic Police Gesture Datasets
 Summary of the Chinese traffic police gesture datasets published in our papers
 
-# Chinese Traffic Police Gesture Dataset (v1)
+## Chinese Traffic Police Gesture Dataset (v1)
 
 This dataset contains videos of traffic polices making 8 kinds of Chinese traffic commanding gestures.
 
-## Preview
+### Preview
 
 <p align="center">
     <img src="docs/v1_preview.jpg">
 </p>
 
-## Files
+### Files
 
 ```
 .
@@ -37,7 +37,7 @@ This dataset contains videos of traffic polices making 8 kinds of Chinese traffi
 - **.mp4 file**: RGB Video of continuous traffic police gestures. Frame-rate: constant, 15. Resolution: 1080x1080 
 - **.csv file**: Per-frame annotated gesture labels.
 
-## Annotation
+### Annotation
 
 The meaning of labels in .csv files.
 
@@ -53,17 +53,17 @@ The meaning of labels in .csv files.
 | 7 | Slow Down |
 | 8 | Pull Over |
 
-# Four-directional Chinese Traffic Police Gesture Dataset (v2)
+## Four-directional Chinese Traffic Police Gesture Dataset (v2)
 
-## Preview
+### Preview
 
-### Videos:
+#### Videos:
 
 <p align="center">
     <img src="docs/v2_preview.jpg">
 </p>
 
-### Gesture labels:
+#### Gesture labels:
 <p align="center">
     <img src="docs/ges1.png">
 </p>
@@ -71,7 +71,7 @@ The meaning of labels in .csv files.
     <img src="docs/ges2.png">
 </p>
 
-### Orientation labels:
+#### Orientation labels:
 
 <p align="center">
     <img src="docs/orientation1.png">
@@ -80,7 +80,7 @@ The meaning of labels in .csv files.
     <img src="docs/orientation2.png">
 </p>
 
-## Files
+### Files
 
 ```
 .
@@ -120,9 +120,9 @@ The meaning of labels in .csv files.
 │   ...
 ```
 
-## Annotation
+### Annotation
 
-### The meaning of **gesture labels**:
+#### The meaning of **gesture labels**:
 
 | Label   | Meaning   | 
 |--------------|-----------|
@@ -136,7 +136,7 @@ The meaning of labels in .csv files.
 | 7 | Slow Down |
 | 8 | Pull Over |
 
-### The meaning of **orientation labels**:
+#### The meaning of **orientation labels**:
 
 | Label   | Meaning   | 
 |--------------|-----------|
