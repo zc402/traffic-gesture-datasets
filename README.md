@@ -8,7 +8,7 @@ This dataset contains videos of traffic polices making 8 kinds of Chinese traffi
 ### Preview
 
 <p align="center">
-    <img src="docs/v1_preview">
+    <img src="docs/v1_preview.jpg">
 </p>
 
 ### Files
@@ -59,7 +59,7 @@ The meaning of labels in .csv files.
 ### Preview
 
 <p align="center">
-    <img src="docs/v2_preview">
+    <img src="docs/v2_preview.jpg">
 </p>
 
 ### Files
