@@ -1,7 +1,7 @@
 # Chinese Traffic Police Gesture Datasets
 Summary of the Chinese traffic police gesture datasets published in our papers
 
-## Chinese Traffic Police Gesture Dataset (v1)
+## Chinese Traffic Police Gesture Dataset (CTPGesture v1)
 
 This dataset contains videos of traffic polices making 8 kinds of Chinese traffic commanding gestures.
 
@@ -10,6 +10,10 @@ This dataset contains videos of traffic polices making 8 kinds of Chinese traffi
 <p align="center">
     <img src="docs/v1_preview.jpg">
 </p>
+
+### Download
+
+[Google Drive](https://drive.google.com/file/d/1QT88DwKyhJ4-hEk81YEpGvikKDS_uqjj/view?usp=sharing)
 
 ### Files
 
@@ -53,7 +57,9 @@ The meaning of labels in .csv files.
 | 7 | Slow Down |
 | 8 | Pull Over |
 
-## Four-directional Chinese Traffic Police Gesture Dataset (v2)
+## Direction Specified Chinese Traffic Police Gesture Dataset (CTPGesture v1)
+
+This dataset contains 32 traffic police gestures composed of 8 commands and 4 commanding directions.
 
 ### Preview
 
@@ -80,12 +86,15 @@ The meaning of labels in .csv files.
     <img src="docs/orientation2.png">
 </p>
 
+### Download
+[Google Drive](https://drive.google.com/file/d/1ItPsIYY828LPkoal1y9TEfrg-_IDchj3/view?usp=sharing)
+
 ### Files
 
 ```
 .
 
-(Manually Annotated)
+(RGB videos and Manually Annotated Labels)
 
 ├── video                       # Police gesture videos
 │   ├── 4K9A0217.m4v
@@ -100,7 +109,7 @@ The meaning of labels in .csv files.
 │   ├── 4K9A0218-proj.llc
 │   ...
 
-(Generated)
+(Pseudo Labels)
 
 ├── label_gesture_frame         # per-frame gesture labels
 │   ├── 4K9A0217.json5          
@@ -110,11 +119,19 @@ The meaning of labels in .csv files.
 │   ├── 4K9A0217.json5
 │   ├── 4K9A0218.json5
 │   ...
+├── label_combine_frame         # per-frame labels, totally 4(orientations)*8(commands)+1(inactive) = 33 gestures
+│   ├── 4K9A0217.json5
+│   ├── 4K9A0218.json5
+│   ...
 ├── track_mul                   # Trace of people
 │   ├── 4K9A0217.pkl
 │   ├── 4K9A0218.pkl
 │   ...
-├── track_nms                   # Trace of police
+├── track_single                # Trace of the police
+│   ├── 4K9A0217.pkl
+│   ├── 4K9A0218.pkl
+│   ...
+├── vibe                        # SMPL parameters estimated with VIBE
 │   ├── 4K9A0217.pkl
 │   ├── 4K9A0218.pkl
 │   ...
