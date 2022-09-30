@@ -57,7 +57,7 @@ The meaning of labels in .csv files.
 | 7 | Slow Down |
 | 8 | Pull Over |
 
-## Direction Specified Chinese Traffic Police Gesture Dataset (CTPGesture v1)
+## Direction Specified Chinese Traffic Police Gesture Dataset (CTPGesture v2)
 
 This dataset contains 32 traffic police gestures composed of 8 commands and 4 commanding directions.
 
